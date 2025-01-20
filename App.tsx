@@ -157,8 +157,8 @@ const YoloPayScreen = () => {
                     position: 'absolute', 
                     right: '3%',
                     bottom: '3%',
-                    height: '50%',
-                    width: '45%',
+                    height: '45%',
+                    width: '48%',
                   }}
                   source={require('./assets/rupayLogo.png')}></Image>
               </View>
@@ -278,7 +278,7 @@ const styles = StyleSheet.create({
   payTabsView: {
     flexDirection: 'row',
     marginTop: '5%',
-    height: '7%',
+    height: '6%',
     width: '100%',
     gap: '2%',
     paddingLeft: '3%',
@@ -287,10 +287,10 @@ const styles = StyleSheet.create({
   },
   tabsButton: {
     height: '100%',
-    width: '28%',
+    width: '30%',
     justifyContent: 'center',
     alignItems: 'center',
-    borderWidth: 0.5,
+    borderWidth: 1,
     borderRadius: 30,
   },
   tabsText: {
@@ -333,7 +333,17 @@ const styles = StyleSheet.create({
     marginTop: '30%',
   },
   tabBar: {
-    backgroundColor: '#000',
-    borderTopWidth: 0,
+    height: '10%',
+    backgroundColor: '#000', 
+    borderTopLeftRadius: '80%', 
+    borderTopRightRadius: '80%',
+    borderTopWidth: 2,
+    borderLeftWidth: 1,
+    borderRightWidth: 1,
+    position: 'absolute', 
+    bottom: 0,
+    left: 0,
+    right: 0,
+    
   },
 });
